@@ -1,4 +1,4 @@
-package actors 
+﻿package actors 
 {
 	import utils.Controller;	
 	import flash.events.Event;
@@ -9,7 +9,8 @@ package actors
 	public class Player extends Paddle 
 	{
 		private var controller:Controller;
-		private var speed:Number = 0;
+		private var speed:Number = 10;
+		private var maxspeed:Number = 100;
 		
 		public function Player() 
 		{
@@ -25,11 +26,11 @@ package actors
 		{
 			if (controller.up)
 			{
-				speed = -15;
+				speed = -maxspeed;
 			}
 			else if(controller.down)
 			{
-				speed = 15;
+				speed = maxspeed;
 			}else
 			{
 				if (speed > 0) speed--;

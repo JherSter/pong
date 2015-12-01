@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import flash.events.Event;
 	import flash.text.TextField;
@@ -64,7 +64,8 @@ package screens
 			stage.addEventListener(KeyboardEvent.KEY_UP, onKeyUp);
 		}
 		
-		private function onKeyUp(e:KeyboardEvent):void 
+  private function onKeyUp(e:KeyboardEvent):void 
+		
 		{
 			if (e.keyCode == 32) {
 				start.removeEventListener(Event.ENTER_FRAME, loop);		
@@ -73,6 +74,7 @@ package screens
 				
 			}
 		}
+		
 		private var dir:Boolean = true;
 		private function loop(e:Event):void 
 		{

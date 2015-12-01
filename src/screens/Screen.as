@@ -12,7 +12,7 @@ package screens
 		fontName = "jedi", 
 		mimeType = "application/x-font", 
 		fontWeight="normal", 
-		fontStyle="normal", 		
+		fontStyle="adventure", 		
 		advancedAntiAliasing="true", 
 		embedAsCFF = "false")]		
 		private var JediFont:Class;
