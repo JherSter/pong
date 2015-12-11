@@ -28,7 +28,7 @@ package screens
 						
 			title = new TextField();
 			title.embedFonts = true;
-			title.text = "GET REKT, SCRUB";
+			title.text = "GET REKT";
 			title.autoSize = TextFieldAutoSize.CENTER;			
 			title.setTextFormat(textFormat);		
 			

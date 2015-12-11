@@ -10,7 +10,20 @@
 	{
 		private var controller:Controller;
 		private var speed:Number = 10;
-		private var maxspeed:Number = 100;
+		private var maxspeed:Number = 10;
+/*
+		public function get Maxspeed():Number {
+			return maxspeed;
+		}
+		public function set Maxspeed(speed:Number):void {
+				if (maxspeed >= 30) 
+				{
+				
+				trace("Max Speed cannot be more than 30");
+				}
+			
+		}
+	*/	
 		
 		public function Player() 
 		{
@@ -34,6 +47,7 @@
 			}else
 			{
 				if (speed > 0) speed--;
+				
 				if (speed < 0) speed++;
 				
 			}

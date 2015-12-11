@@ -9,8 +9,8 @@
 	public class AI extends Paddle 
 	{
 		private var _target:Ball;
-		private var _speed:Number = 0;
-		private var _maxSpeed:Number = 10;
+		private var _speed:Number = 15;
+		private var _maxSpeed:Number = 20;
 		private var _balls:Array;
 		public function set balls(b:Array):void
 		{
